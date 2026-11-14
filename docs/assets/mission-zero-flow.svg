@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="330" viewBox="0 0 1440 330" role="img" aria-labelledby="title desc">
+  <title id="title">How MISSION ZERO works</title>
+  <desc id="desc">AI-assisted concept diagram showing five learning steps: brief, configure, manage, travel, reflect.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1a2d"/><stop offset="1" stop-color="#192746"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#66d5eb"/><stop offset="1" stop-color="#9aafff"/></linearGradient>
+  </defs>
+  <rect width="1440" height="330" rx="24" fill="url(#bg)"/>
+  <text x="64" y="59" fill="#9be6f4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">THE LEARNING LOOP</text>
+  <text x="64" y="96" fill="#f4f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700">From mission brief to engineering insight</text>
+  <path d="M177 177H1263" stroke="url(#accent)" stroke-width="3" opacity=".65"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(176 177)"><circle r="28" fill="#102a43" stroke="#6fd9e8" stroke-width="2"/><text y="6" fill="#9eeaff" font-size="15" font-weight="700">01</text><text y="62" fill="#fff" font-size="15" font-weight="700">BRIEF</text><text y="84" fill="#c2cfe5" font-size="12">Understand the goal</text><text y="101" fill="#c2cfe5" font-size="12">and mission constraints</text></g>
+    <g transform="translate(448 177)"><circle r="28" fill="#102a43" stroke="#6fd9e8" stroke-width="2"/><text y="6" fill="#9eeaff" font-size="15" font-weight="700">02</text><text y="62" fill="#fff" font-size="15" font-weight="700">CONFIGURE</text><text y="84" fill="#c2cfe5" font-size="12">Explore eight spacecraft</text><text y="101" fill="#c2cfe5" font-size="12">systems</text></g>
+    <g transform="translate(720 177)"><circle r="28" fill="#102a43" stroke="#80c9ff" stroke-width="2"/><text y="6" fill="#b6d9ff" font-size="15" font-weight="700">03</text><text y="62" fill="#fff" font-size="15" font-weight="700">MANAGE</text><text y="84" fill="#c2cfe5" font-size="12">Balance mission resources</text><text y="101" fill="#c2cfe5" font-size="12">and system trade-offs</text></g>
+    <g transform="translate(992 177)"><circle r="28" fill="#102a43" stroke="#9ab5ff" stroke-width="2"/><text y="6" fill="#c2d0ff" font-size="15" font-weight="700">04</text><text y="62" fill="#fff" font-size="15" font-weight="700">TRAVEL</text><text y="84" fill="#c2cfe5" font-size="12">Follow a simulated</text><text y="101" fill="#c2cfe5" font-size="12">lunar transfer route</text></g>
+    <g transform="translate(1264 177)"><circle r="28" fill="#102a43" stroke="#c0aaff" stroke-width="2"/><text y="6" fill="#ddcaff" font-size="15" font-weight="700">05</text><text y="62" fill="#fff" font-size="15" font-weight="700">REFLECT</text><text y="84" fill="#c2cfe5" font-size="12">See how choices</text><text y="101" fill="#c2cfe5" font-size="12">shape the mission</text></g>
+  </g>
+  <text x="1373" y="308" text-anchor="end" fill="#aebbd2" font-family="Segoe UI,Arial,sans-serif" font-size="9.5" letter-spacing=".8">AI-ASSISTED CONCEPT DIAGRAM</text>
+</svg>

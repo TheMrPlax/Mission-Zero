@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
+  <title id="title">MISSION ZERO — The Lunar Expedition</title>
+  <desc id="desc">AI-assisted concept illustration of a spacecraft following a transfer route from Earth to the Moon. Not a gameplay screenshot.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081629"/><stop offset=".55" stop-color="#111e3d"/><stop offset="1" stop-color="#25305a"/></linearGradient>
+    <radialGradient id="earth" cx="34%" cy="30%"><stop stop-color="#8ee8ff"/><stop offset=".5" stop-color="#327fc7"/><stop offset="1" stop-color="#12396f"/></radialGradient>
+    <radialGradient id="moon" cx="34%" cy="29%"><stop stop-color="#f5eddb"/><stop offset=".7" stop-color="#b9b5ad"/><stop offset="1" stop-color="#777b86"/></radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6f4ff"/><stop offset="1" stop-color="#548fd8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="earthClip"><circle cx="390" cy="318" r="116"/></clipPath>
+    <clipPath id="moonClip"><circle cx="1184" cy="286" r="88"/></clipPath>
+  </defs>
+  <rect width="1440" height="520" rx="28" fill="url(#space)"/>
+  <g fill="#fff" opacity=".75">
+    <circle cx="616" cy="82" r="2"/><circle cx="731" cy="163" r="1.6"/><circle cx="1054" cy="82" r="1.8"/><circle cx="1303" cy="124" r="1.5"/><circle cx="920" cy="405" r="1.4"/><circle cx="522" cy="421" r="1.7"/><circle cx="1370" cy="391" r="1.6"/><circle cx="69" cy="418" r="1.5"/>
+  </g>
+  <path d="M435 275 C635 112 935 128 1126 250" fill="none" stroke="#91deff" stroke-width="2" stroke-dasharray="8 11" opacity=".68"/>
+  <path d="M440 295 C650 143 928 152 1129 270" fill="none" stroke="#6baef3" stroke-width="1" opacity=".25"/>
+  <g>
+    <circle cx="390" cy="318" r="126" fill="#58b7f0" opacity=".12" filter="url(#glow)"/>
+    <circle cx="390" cy="318" r="116" fill="url(#earth)"/>
+    <g clip-path="url(#earthClip)" fill="#87c98a" opacity=".85">
+      <path d="M305 251l20-14 18 8 5 15-17 13-8 23-18 8-11-22 8-17z"/>
+      <path d="M368 326l20-12 26 6 17 19-9 19-6 27-22 28-14-17-1-25-18-17z"/>
+      <path d="M440 244l28 6 19 16-7 17-23 3-9-17-18-5z"/>
+      <path d="M294 350l18-10 20 7 8 19-15 14-23-3z"/>
+    </g>
+    <path d="M296 288c34-27 92-36 151-16M289 345c49 22 112 28 186 4" fill="none" stroke="#d9f9ff" stroke-width="2" opacity=".27"/>
+    <text x="390" y="468" text-anchor="middle" fill="#d8eaff" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">EARTH</text>
+  </g>
+  <g>
+    <circle cx="1184" cy="286" r="98" fill="#f3e8cf" opacity=".1" filter="url(#glow)"/>
+    <circle cx="1184" cy="286" r="88" fill="url(#moon)"/>
+    <g clip-path="url(#moonClip)" fill="#747983" opacity=".42">
+      <circle cx="1151" cy="248" r="14"/><circle cx="1202" cy="237" r="8"/><circle cx="1221" cy="278" r="17"/><circle cx="1174" cy="301" r="11"/><circle cx="1139" cy="324" r="8"/><circle cx="1205" cy="337" r="13"/><circle cx="1161" cy="354" r="5"/>
+    </g>
+    <text x="1184" y="411" text-anchor="middle" fill="#eee7d8" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">THE MOON</text>
+  </g>
+  <g transform="translate(822 190) rotate(12)">
+    <rect x="-40" y="-21" width="31" height="42" rx="3" fill="url(#panel)" stroke="#c5f7ff"/>
+    <path d="M-30-21v42M-20-21v42M-40-7h31M-40 7h31" stroke="#244c87" stroke-width="1" opacity=".7"/>
+    <rect x="9" y="-21" width="31" height="42" rx="3" fill="url(#panel)" stroke="#c5f7ff"/>
+    <path d="M19-21v42M29-21v42M9-7h31M9 7h31" stroke="#244c87" stroke-width="1" opacity=".7"/>
+    <path d="M-9 0l17-13 19 13-19 13z" fill="#f3f7ff" stroke="#87dfff" stroke-width="2"/>
+    <circle cx="8" cy="0" r="4" fill="#49bde9"/>
+    <path d="M-8 16l-9 16 17-9M24 16l9 16-17-9" fill="#ffbd75" opacity=".9"/>
+    <path d="M-2 15l10 20 10-20" fill="#70cfff" opacity=".7"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="78" y="93" fill="#8dddf4" font-size="13" font-weight="700" letter-spacing="3">THE LUNAR EXPEDITION</text>
+    <text x="78" y="162" fill="#fff" font-size="44" font-weight="700" letter-spacing="-.5">Every mission is a chain</text>
+    <text x="78" y="216" fill="#fff" font-size="44" font-weight="700" letter-spacing="-.5">of decisions.</text>
+    <text x="80" y="258" fill="#c4d4ee" font-size="17">Explore spacecraft systems, balance resources,</text>
+    <text x="80" y="285" fill="#c4d4ee" font-size="17">and follow a simulated journey from Earth to the Moon.</text>
+    <rect x="80" y="318" width="215" height="38" rx="19" fill="#19395e" stroke="#3976a0"/>
+    <circle cx="101" cy="337" r="4" fill="#65e4ce"/>
+    <text x="116" y="342" fill="#d8f5ff" font-size="12" font-weight="600" letter-spacing="1">LEARN BY EXPLORING</text>
+    <text x="1360" y="485" text-anchor="end" fill="#c0c9dc" font-size="10" letter-spacing="1.1">AI-ASSISTED CONCEPT ILLUSTRATION · NOT A GAMEPLAY SCREENSHOT</text>
+  </g>
+</svg>
